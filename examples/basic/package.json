@@ -6,9 +6,36 @@
     "local-dev": "vercel dev -A vercel.dev.json"
   },
   "dependencies": {
-    "access-log": "^0.4.1"
+    "access-log": "^0.4.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/vercel-builder": "^0.18.0",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
+    "i": "^0.3.6",
+    "npm": "^6.14.8",
+    "nuxt": "^2.13.0",
+    "nuxt-clipboard2": "^0.2.1",
+    "nuxt-i18n": "^6.12.2",
+    "v-img": "^0.2.0",
+    "vue-clipboard2": "^0.3.1",
+    "vue-fb-customer-chat": "^0.2.0",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-numeral-filter": "^2.0.0",
+    "vue-pwa-install": "^1.1.0",
+    "vue-resize-text": "^0.1.1",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-social-sharing": "^3.0.0-beta.11",
+    "vue-window-size": "^0.2.5"
   },
   "devDependencies": {
-    "nuxt-edge": "^2.11.0-26275689.64fb46c0"
+    "nuxt-edge": "^2.14.8-26756670.57aa7cc5",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
   }
 }
