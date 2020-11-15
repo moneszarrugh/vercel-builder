@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'neo';
+  src: url('../fonts/neo-sans/Neo_Sans_Arabic_Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'neo';
+  src: url('../fonts/neo-sans/NeoSansArabicMedium.woff') format('woff');
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'neo';
+  src: url('../fonts/neo-sans/NeoSansArabicBold.woff') format('woff');
+  font-weight: 900;
+  font-style: black;
+}
+
+.title-v-img {
+  font-family: 'neo', Avenir, Helvetica, Arial, sans-serif !important;
+  font-size: 2em !important;
+}
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+#__nuxt {
+  font-family: 'neo', Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+
+  /* a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  } */
+}
+
+.slick-dots {
+  position: relative;
+  bottom: 0px;
+}
+/* .slick-dots li {
+  height: 5px !important;
+  width: 4em !important;
+} */
+
+@media only screen and (max-width: 600px) {
+  .slick-dots li {
+    height: 5px !important;
+    width: 2.5em !important;
+  }
+  .nav-item {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .slick-dots li {
+    height: 5px !important;
+    width: 4.5em !important;
+  }
+}
+
+.slick-active ol li {
+  background-color: #007bff !important;
+}
+ul {
+  padding-inline-start: 0px;
+}
+.loading-spiral {
+  margin: 50px 0 !important;
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 50px !important;
+  line-height: 50px !important;
+}
